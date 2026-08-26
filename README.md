@@ -1,1 +1,173 @@
-IyDwn4+uINmC2KfZhNioINmF2YjZgti5INmF2LfYudmFINi52LHYqNmKINin2K3Yqtix2KfZgdmKCgrZgtin2YTYqCDZhdmI2YLYuSDYpdmE2YPYqtix2YjZhtmKINis2KfZh9iyINmE2YXYt9in2LnZhSDYp9mE2LnYsdio2YrYqSDYp9mE2KPYtdmK2YQuCgojIyDinKggINin2YTZhdmF2YrYstin2KoKCi0g8J+OqCDYqti12YXZitmFINiv2KfZg9mGL9iv2KfZgdimINmF2Lkg2KPZhNmI2KfZhiDYsNmH2KjZitipCi0g8J+TsSDZhdiq2KzYp9mI2Kgg2KjYp9mE2YPYp9mF2YQgKE1vYmlsZS1maXJzdCkKLSDwn4yQINiv2LnZhSBSVEwg2KfZhNi52LHYqNmKINio2KfZhNmD2KfZhdmECi0g4pqhINij2YbZitmF2YrYtNmGINiz2YTYs9ipINi12YbYryDYp9mE2KrZhdix2YrYsQotIPCfkqwg2LLYsSDZiNin2KrYs9in2Kgg2LnYp9im2YUg2K/Yp9im2YUg2KfZhNi42YfZiNixCi0g8J+TiyDZgtin2KbZhdipINi32LnYp9mFINmF2Lkg2KrYqNmI2YrYqNin2KoKLSDwn5a877iPINmF2LnYsdi2INi12YjYsSDZhdi5IExpZ2h0Ym94Ci0g4q2QINii2LHYp9ihINin2YXYudmF2YTYp9ihINmF2Lkg2KfZhNiq2YLZitmK2YXYp9aqCi0g8J+TjSDYrtix2YrYt9ipIEdvb2dsZSBNYXBzINmF2K/Zhdis2KkKLSDwn42UINmC2KfYptmF2Kkg2YfZhdio2LHYutixINmE2YXZiNio2KfZitmECi0g8J+UpCDYs9mH2YQg2KfZhNiq2K7YtdmK2LUg2YjZhdmE2YEg2KXYudiv2KfYr9in2aqCiMjIOKaoCDYp9mE2KrYtNi62YrZhAoKIyMjINin2YXYt9ix2YrZgtipINin2YTYo9io2LPYtwrYp9mA2KrYrSDZhdmE2YEgYGluZGV4Lmh0bWxgINmF2KjYp9i02LHYqSDZgdmKINin2YXZhdiq2LXZgditLgoKIyMjINmF2Lkg2LPZitix2YHYsSDZhdit2YXZigpgYGBiYXNoCiMgUHl0aG9uCnB5dGhvbiAtbSBodHRwLnNlcnZlciA4MDAwCgojIE5vZGUuanMKbnB4IHNlcnZlIC4KCiMgUEhQCnBocCAtUyBsb2NhbGhvc3Q6ODAwMApgYGAKCiMjIOKame+4jyDYp9mE2KrYrti12YrYtQoKKirZg9mEINin2YXYpdiv2KfYr9in2aoq2YHZiiDZhdmE2YEgYHNjcmlwdC5qc2Ag2YHZiiDZg9in2KbZhiBgQ09ORklHYCDZgdmKINij2LnZhNmJINin2YXZhdmE2YE6KioKCiMjIyAxLiDZhdi22YTZiNmF2KfYqiDYp9mE2YXYt9i52YUKYGBgamF2YXNjcmlwdApjb25zdCBDT05GSUcgPSB7CiAgICBuYW1lOiAi2KfYs9mFINmF2LfYudmF2YMiLAogICAgbmFtZVNob3J0OiAi2KfZhNin2LPZhSDYp9mE2YXYrtiq2LXYsSIsCiAgICB0YWdsaW5lOiAi2KfZhNi02LnYp9ixIiwKICAgIC8vIC4uLgp9OwpgYGAKCiMjIyAyLiDZhdi22YTZiNmF2KfYqiDYp9mE2KrZiNin2LXZhApgYGBqYXZhc2NyaXB0CnBob25lOiAiKzk2NjUwMTIzNDU2NyIsCndoYXRzYXBwOiAiKzk2NjUwMTIzNDU2NyIsCndoYXRzYXBwTWVzc2FnZTogItix2LPYp9mE2Kkg2KfZhNmI2KfYqtiz2KfYqCIsCmluc3RhZ3JhbTogImh0dHBzOi8vaW5zdGFncmFtLmNvbS95b3VyX2hhbmRsZSIsCmFkZHJlc3M6ICLYp9mE2LnZhtmI2KfZhiDYp9mE2YPYp9mF2YQiLApgYGAKCiMjIyAzLiDYs9in2LnYp9aqINin2YXYudmF2YQKYGBgamF2YXNjcmlwdApob3VyczogWwogICAgeyBkYXk6ICLYp9mE2LPYqNaqIiwgdGltZTogIjEyOjAwINmFIC0gMTI6MDAg2LUiIH0sCiAgICAvLyAuLi4KXSwKYGBgCgojIyMgNC4g2YLYp9im2YXYqSDYp9mE2LfYudin2YUKYGBgamF2YXNjcmlwdAptZW51SXRlbXM6IHsKICAgIGFwcGV0aXplcnM6IFsKICAgICAgICB7CiAgICAgICAgICAgIG5hbWU6ICLYp9iz2YUg2KfZhNi32KjZgiIsCiAgICAgICAgICAgIGRlc2M6ICLYp9mE2YjYtdmBIiwKICAgICAgICAgICAgcHJpY2U6IDI1LAogICAgICAgICAgICBpbWc6ICLYsdin2KjYtyDYp9mE2LXZiNix2KkiCiAgICAgICAgfSwKICAgIF0sCiAgICAvLyBtYWluLCBncmlsbHMsIGRlc3NlcnRzLCBkcmlua3MKfSwKYGBgCgojIyMgNS4g2YXYudix2LYg2KfZhNi12YjYsQpgYGBqYXZhc2NyaXB0CmdhbGxlcnk6IFsKICAgICLYsdin2KjYtyDYtdmI2LHYqSAxIiwKICAgICLYsdin2KjYtyDYtdmI2LHYqSAyIiwKICAgIC8vIC4uLgpdLApgYGAKCiMjIyA2LiDYotix2KfYoSDYp9mE2LnZhdmE2KfYoQpgYGBqYXZhc2NyaXB0CnRlc3RpbW9uaWFsczogWwogICAgewogICAgICAgIG5hbWU6ICLYp9iz2YUg2KfZhNi52YXZitmEIiwKICAgICAgICB0ZXh0OiAi2YbYtSDYp9mE2KrZgtmK2YrZhSIsCiAgICAgICAgc3RhcnM6IDUsCiAgICAgICAgZGF0ZTogItmC2KjZhCDYo9iz2KjZiNi5IgogICAgfSwKXSwKYGBgCgojIyMgNy4g2KrYutmK2YrYsSDYp9mE2KPZhNmI2KfZhgrYudiv2ZHZhCDYp9mE2YXYqti22YrYsdin2Kog2YHZiiDYo9i52YXZiSDZhdmE2YEgYHN0eWxlLmNzc2A6CmBgYGNzcwo6cm9vdCB7CiAgICAtLXByaW1hcnk6ICNENEE1NDc7ICAgICAgICAvKiDYp9mE2YTZiNmGINin2YXYsdimZFjYs9mKICjYsNmH2KjZiikgKi8KICAgIC0tcHJpbWFyeS1kYXJrOiAjQjg4OTJFOyAgIC8qINin2YTZhNmI2YYg2KfZhNix2KZdFjYs9mKINin2YTYr9in2YPZhiAqLwogICAgLS1wcmltYXJ5LWxpZ2h0OiAjRThDNDZBOyAgLyog2KfZhNmF2YbZitmGINin2YXYsdimZFjYs9mKINin2YXZgdin2KrYrSAqLwogICAgLS1iZy1kYXJrOiAjMUExQTFBOyAgICAgICAgLyog2K3ZhNmBZVjYqSDYp9mF2YXZiNmC2LkgKi8KICAgIC0tYmctZGFya2VyOiAjMTExMTExOyAgICAgIC8qINiu2YTZgWVYWjYqSDYo9iz2YXZgiAqLwogICAgLS1hY2NlbnQtZ3JlZW46ICMyNUQzNjY7ICAgLyog2YTZiNmGINin2YXZiNin2KrYs9in2KggKi8KfQpgYGAKCiMjIPCfk4EgWFjZhdmE2YHZh9mK2YEg2KfZhdmE2YHYp9aqCgpgYGAKcmVzdGF1cmFudC10ZW1wbGF0ZS8K4pSc4pSA4pSAIGluZGV4Lmh0bWwgICAgICAjINin2YXYtdmBrNiqINin2YXYsdimZVjYs9mKZVip2KkKiuKUnOKUgOKUgCBzdHlsZS5jc3MgICAgICAgIyDZhdmE2YEg2KfZhNiq2YbYs9mK2YLYp9aqCuKUnOKUgOKUgCBzY3JpcHQuanMgICAgICAgIyDYp9mE2KzYp9mB2KfYs9mD2LHYqNaqICsg2KXYudiv2KfYr9in2aqg2KfZhNiq2K3ZgtmK2LUg2YjYp9mE2KXYudiv2KfYr9in2KoK4pSU4pSA4pSAIFJFQURNRS5tZCAgICAgICAjINmH2LDYpyDYp9mE2YXZhNmBCmBgYAoKIyMg8J+MkCDYp9mE2YbYtNixIChEZXBsb3ltZW50KQoKIyMjIFZlcmNlbCAo2YXYrNin2YbZiikKYGBgYmFzaApucG0gaSAtZyB2ZXJjZWwKdmVyY2VsCmBgYAoKIyMjIE5ldGxpZnkgKNmF2KzYp9mG2YopCjEuINin2LHZgdi5INin2YXZhdmE2YHYp9aqINi12YXZiSBHaXRIdWIKMi4g2KfYsdio2Lcg2KfZhNmF2LPYqtmI2K/YuSDYqNmBIE5ldGxpZnkKMy4g2LPZitmQ2YbYtNixINiq2YXZgdin2KbZitin2YsKCiMjIyBHaXRIdWIgUGFnZXMgKNmF2KzYp9mG2YopCjEuINin2LHZgdi5INin2YXZhdmE2YHYp9aqINi12YXZiSDZhdiz2KrZiNiv2LkgR2l0SHViCjIuIFNldHRpbmdzIOKGkiBQYWdlcyDihpIgU291cmNlOiBtYWluIGJyYW5jaAozLiDYs9mK2YPZiNmGINmF2KrYp9it2KfZjCDYudmE2Ykg4oCLdXNlcm5hbWUuZ2l0aHViLmlvL3JlcG8tbmFtZeKAmAoKIyMjINin2LPYqtipINi52KfYr9mK2KkK2KfYsdmB2Lkg2KfZhdmE2YHYp9aqINin2KrZhdmE2KrYqSDYqNil2KrYstipIChpbmRleC5odG1sLCBzdHlsZS5jc3MsIHNjcmlwdC5qcykgWFjYudmE2YkY2KfYqSDYp9iz2KrYttip2KkuCgojIyDwn5OxINi12YjYsSDYp9mE2KPYt9io2KfZggoK2KfYs9aqWEXYp9ii2KcuYuKAtiDYsein2KjYtyDYp9mE2LXZiNixINmB2YogYENPTkZJRy5tZW51SXRlbXNgINio2LXZiNixINij2LfYqNin2YLZgyDYp9mE2K3ZgtmK2YLZitmELgoKKipZhti12YrYrdipOioqINin2LPYqtiu2K/ZhSDYtdmI2LEg2KjYrdis2YU6Ci0g2KPYt9io2KfZgiDYp9mE2YXZhtmK2Yg6IDQwMMOXMzAwINio2YPYs9mECi0g2YXYudix2LYg2KfZhNi12YjYsTogNjAww5c0MDAg2KjZg9iz2YQKLSDYtdmI2LHYqSDYp9mE2YfZitix2Yg6IDE5MjDDlzEwODAg2KjZg9iz2YQKCtmK2YXZg9mG2YMg2LHZgdi5INin2YXZhdi12YjYsSDYudmE2Ykg2YHZiiDYo9iz2KrZiNiv2YYg2KfZhNi12YjYsyCaLoAgWFhYbG91ZGluYXJ5ODovaW1nYmIuY29tKSAo2YXYrNin2YbZiikKLSWFhZQ9mFINin2LPYqtiu2K/Yin2YUg2LXZiNixINmF2YYg2YXYrNmE2K8g2LnZhNmJINin2YXZhdi12KrYttip2KkKCiMjIPCfkqEg2YbYtdin2KbYrQoKMS4g2LrZitmQ2LEg2LXZiNix2Kkg2KfZhNmH2YrYsdmIINmF2YYg2YXZhNmBIGBzdHlsZS5jc3NgICjYp9io2K3YqyDYudmGIGAuaGVyb2AgYmFja2dyb3VuZCkKMi4g2YTYpdi22KfZgdipINmB2KbYqiAY2Kmf2K3ZitmqDCDYp9mE2YXZhtmK2Yog2KfZhNiz2KrZiNiv2LkgR2l0SHViCjIuIFNldHRpbmdzIOKGkiBQYWdlcyDihpIgU291cmNlOiBtYWluIGJyYW5jaAozLiDYs9mK2YPZiNmGINmF2KrYp9it2KfZjCDYudmE2Ykg4oCLdXNlcm5hbWUuZ2l0aHViLmlvL3JlcG8tbmFtZeKAmAoKIyMjINin2LPYqtipINi52KfYr9mK2KkK2KfYsdmB2Lkg2KfZhdmE2YHYp9aqINin2KrZhdmE2KrYqSDYqNil2KrYstipIChpbmRleC5odG1sLCBzdHlsZS5jc3MsIHNjcmlwdC5qcykgWFjYudmE2YkY2KfYqSDYp9iz2KrYttip2KkuCgojIyDwn5OBINmH2YrZg9mEINin2YXZhdmE2YHYp9aqCgpgYGAKcmVzdGF1cmFudC10ZW1wbGF0ZS8K4pSc4pSA4pSAIGluZGV4Lmh0bWwgICAgICAjINin2YXYtdmBrNiqINin2YXYsdimZVjYs9mK2Kke2KkKiuKUnOKUgOKUgCBzdHlsZS5jc3MgICAgICAgIyDZhdmE2YEg2KfZhNiq2YbYs9mK2YLYp9aqCuKUnOKUgOKUgCBzY3JpcHQuanMgICAgICAgIyDYp9mE2KzYp9mB2KfYs9mD2LHYqNaqICsg2KXYudiv2KfYr9in2aqg2KfZhNiq2K3ZgtmK2LUg2YjYp9mE2KXYudiv2KfYr9in2KoK4pSU4pSA4pSAIFJFQURNRS5tZCAgICAgICAjINmH2LDYpyDYp9mE2YXZhNmBCmBgYAoKIyMg8J+MkCDYp9mE2YbYtNixIChEZXBsb3ltZW50KQoKIyMjIFZlcmNlbCAo2YXYrNin2YbZiikKYGBgYmFzaApucG0gaSAtZyB2ZXJjZWwKdmVyY2VsCmBgYAoKIyMjIE5ldGxpZnkgKNmF2KzYp9mG2YopCjEuINin2LHZgdi5INin2YXZhdmE2YHYp9aqINi12YXZiSBHaXRIdWIKMi4g2KfYsdio2Lcg2KfZhNmF2LPYqtmI2K/YuSDYqNmBIE5ldGxpZnkKMy4g2LPZitmQ2YbYtNixINiq2YXZgdin2KbZitin2YsKCiMjIyBHaXRIdWIgUGFnZXMgKNmF2KzYp9mG2YopCjEuINin2LHZgdi5INin2YXZhdmE2YHYp9aqINi12YXZiSDZhdiz2KrZiNiv2LkgR2l0SHViCjIuIFNldHRpbmdzIOKGkiBQYWdlcyDihpIgU291cmNlOiBtYWluIGJyYW5jaAozLiDYs9mK2YPZiNmGINmF2KrYp9it2KfZjCDYudmE2Ykg4oCLdXNlcm5hbWUuZ2l0aHViLmlvL3JlcG8tbmFtZeKAmAoKIyMjINin2LPYqtipINi52KfYr9mK2KkK2KfYsdmB2Lkg2KfZhdmE2YHYp9aqINin2KrZhdmE2KrYqSDYqNil2KrYstipIChpbmRleC5odG1sLCBzdHlsZS5jc3MsIHNjcmlwdC5qcykgWFjYudmE2YkY2KfYqSDYp9iz2KrYttip2KkuCgojIyDwn5OxINi12YjYsSDYp9mE2KPYt9io2KfZggoK2KfYs9aqWEXYp9ii2KcuYuKAtiDYsein2KjYtyDYp9mE2LXZiNixINmB2YogYENPTkZJRy5tZW51SXRlbXNgINio2LXZiNixINij2LfYqNin2YLZgyDYp9mE2K3ZgtmK2YLZitmELgoKKipZhti12YrYrdipOioqINin2LPYqtiu2K/ZhSDYtdmI2LEg2KjYrdis2YU6Ci0g2KPYt9io2KfZgiDYp9mE2YXZhtmK2Yg6IDQwMMOXMzAwINio2YPYs9mECi0g2YXYudix2LYg2KfZhNi12YjYsTogNjAww5c0MDAg2KjZg9iz2YQKLSDYtdmI2LHYqSDYp9mE2YfZitix2Yg6IDE5MjDDlzEwODAg2KjZg9iz2YQKCtmK2YXZg9mG2YMg2LHZgdi5INin2YXZhdi12YjYsSDYudmE2Ykg2YHZiiDYo9iz2KrZiNiv2YYg2KfZhNi12YjYsyCaLoAgWFhYbG91ZGluYXJ5ODovaW1nYmIuY29tKSAo2YXYrNin2YbZiikKLSWFhZQ9mFINin2LPYqtiu2K/Yin2YUg2LXZiNixINmF2YYg2YXYrNmE2K8g2LnZhNmJINin2YXZhdi12KrYttip2KkKCiMjIPCfkqEg2YbYtdin2KbYrQoKMS4g2LrZitmQ2LEg2LXZiNix2Kkg2KfZhNmH2YrYsdmIINmF2YYg2YXZhNmBIGBzdHlsZS5jc3NgICjYp9io2K3YqyDYudmGIGAuaGVyb2AgYmFja2dyb3VuZCkKMi4g2YTYpdi22KfZgdipINmB2KbYqiAY2Kmf2K3ZitmqDCDYp9mE2YXZhtmK2Yog2KfZhNiz2KrZiNiv2LkgR2l0SHViCjIuIFNldHRpbmdzIOKGkiBQYWdlcyDihpIgU291cmNlOiBtYWluIGJyYW5jaAozLiDYs9mK2YPZiNmGINmF2KrYp9it2KfZjCDYudmE2Ykg4oCLdXNlcm5hbWUuZ2l0aHViLmlvL3JlcG8tbmFtZeKAmAoKIyMjINin2LPYqtipINi52KfYr9mK2KkK2KfYsdmB2Lkg2KfZhdmE2YHYp9aqINin2KrZhdmE2KrYqSDYqNil2KrYstipIChpbmRleC5odG1sLCBzdHlsZS5jc3MsIHNjcmlwdC5qcykgWFjYudmE2YkY2KfYqSDYp9iz2KrYttip2KkuCgojIyDwn5OBINmH2YrZg9mEINin2YXZhdmE2YHYp9aqCgpgYGAKcmVzdGF1cmFudC10ZW1wbGF0ZS8K4pSc4pSA4pSAIGluZGV4Lmh0bWwgICAgICAjINin2YXYtdmBrNiqINin2YXYsdimZVjYs9mK2Kke2KkKiuKUnOKUgOKUgCBzdHlsZS5jc3MgICAgICAgIyDZhdmE2YEg2KfZhNiq2YbYs9mK2YLYp9aqCuKUnOKUgOKUgCBzY3JpcHQuanMgICAgICAgIyDYp9mE2KzYp9mB2KfYs9mD2LHYqNaqICsg2KXYudiv2KfYr9in2aqg2KfZhNiq2K3ZgtmK2LUg2YjYp9mE2KXYudiv2KfYr9in2KoK4pSU4pSA4pSAIFJFQURNRS5tZCAgICAgICAjINmH2LDYpyDYp9mE2YXZhNmBCmBgYAoKIyMg8J+MkCDYp9mE2YbYtNixIChEZXBsb3ltZW50KQoKIyMjIFZlcmNlbCAo2YXYrNin2YbZiikKYGBgYmFzaApucG0gaSAtZyB2ZXJjZWwKdmVyY2VsCmBgYAoKIyMjIE5ldGxpZnkgKNmF2KzYp9mG2YopCjEuINin2LHZgdi5INin2YXZhdmE2YHYp9aqINi12YXZiSBHaXRIdWIKMi4g2KfYsdio2Lcg2KfZhNmF2LPYqtmI2K/YuSDYqNmBIE5ldGxpZnkKMy4g2LPZitmQ2YbYtNixINiq2YXZgdin2KbZitin2YsKCiMjIyBHaXRIdWIgUGFnZXMgKNmF2KzYp9mG2YopCjEuINin2LHZgdi5INin2YXZhdmE2YHYp9aqINi12YXZiSDZhdiz2KrZiNiv2LkgR2l0SHViCjIuIFNldHRpbmdzIOKGkiBQYWdlcyDihpIgU291cmNlOiBtYWluIGJyYW5jaAozLiDYs9mK2YPZiNmGINmF2KrYp9it2KfZjCDYudmE2Ykg4oCLdXNlcm5hbWUuZ2l0aHViLmlvL3JlcG8tbmFtZeKAmAoKIyMjINin2LPYqtipINi52KfYr9mK2KkK2KfYsdmB2Lkg2KfZhdmE2YHYp9aqINin2KrZhdmE2KrYqSDYqNil2KrYstipIChpbmRleC5odG1sLCBzdHlsZS5jc3MsIHNjcmlwdC5qcykgWFjYudmE2YkY2KfYqSDYp9iz2KrYttip2KkuCgojIyDwn5OxINi12YjYsSDYp9mE2KPYt9io2KfZggoK2KfYs9aqWEXYp9ii2KcuYuKAtiDYsein2KjYtyDYp9mE2LXZiNixINmB2YogYENPTkZJRy5tZW51SXRlbXNgINio2LXZiNixINij2LfYqNin2YLZgyDYp9mE2K3ZgtmK2YLZitmELgoKKipZhti12YrYrdipOioqINin2LPYqtiu2K/ZhSDYtdmI2LEg2KjYrdis2YU6Ci0g2KPYt9io2KfZgiDYp9mE2YXZhtmK2Yg6IDQwMMOXMzAwINio2YPYs9mECi0g2YXYudix2LYg2KfZhNi12YjYsTogNjAww5c0MDAg2KjZg9iz2YQKLSDYtdmI2LHYqSDYp9mE2YfZitix2Yg6IDE5MjDDlzEwODAg2KjZg9iz2YQKCtmK2YXZg9mG2YMg2LHZgdi5INin2YXZhdi12YjYsSDYudmE2Ykg2YHZiiDYo9iz2KrZiNiv2YYg2KfZhNi12YjYsyCaLoAgWFhYbG91ZGluYXJ5ODovaW1nYmIuY29tKSAo2YXYrNin2YbZiikKLSWFhZQ9mFINin2LPYqtiu2K/Yin2YUg2LXZiNixINmF2YYg2YXYrNmE2K8g2LnZhNmJINin2YXZhdi12KrYttip2KkKCiMjIPCfkqEg2YbYtdin2KbYrQoKMS4g2LrZitmQ2LEg2LXZiNix2Kkg2KfZhNmH2YrYsdmIINmF2YYg2YXZhNmBIGBzdHlsZS5jc3NgICjYp9io2K3YqyDYudmGIGAuaGVyb2AgYmFja2dyb3VuZCkKMi4g2YTYpdi22KfZgdipINmB2KbYqiAY2Kmf2K3ZitmqDCDYp9mE2YXZhtmK2Yog2KfZhNiz2KrZiNiv2LkgR2l0SHViCjIuIFNldHRpbmdzIOKGkiBQYWdlcyDihpIgU291cmNlOiBtYWluIGJyYW5jaAozLiDYs9mK2YPZiNmGINmF2KrYp9it2KfZjCDYudmE2Ykg4oCLdXNlcm5hbWUuZ2l0aHViLmlvL3JlcG8tbmFtZeKAmAoKIyMjINin2LPYqtipINi52KfYr9mK2KkK2KfYsdmB2Lkg2KfZhdmE2YHYp9aqINin2KrZhdmE2KrYqSDYqNil2KrYstipIChpbmRleC5odG1sLCBzdHlsZS5jc3MsIHNjcmlwdC5qcykgWFjYudmE2YkY2KfYqSDYp9iz2KrYttip2KkuCgotLS0KCti12YbYuSDYqNmAIOKdpO+4jyDZhNmE2YXYt9in2LnZhSDYp9mE2LnYsdio2YrYqQo=
+# 🏮 قالب موقع مطعم عربي احترافي
+
+قالب موقع إلكتروني جاهز للمطاعم العربية، مصمم بأسلوب عصري مع دعم كامل للغة العربية (RTL).
+
+## ✨ المميزات
+
+- 🎨 تصميم داكن/دافئ مع ألوان ذهبية
+- 📱 متجاوب بالكامل (Mobile-first)
+- 🌐 دعم RTL العربي بالكامل
+- ⚡ أنيميشن سلسة عند التمرير
+- 💬 زر واتساب عائم دائم الظهور
+- 📋 قائمة طعام مع تبويبات
+- 🖼️ معرض صور مع Lightbox
+- ⭐ آراء العملاء مع التقييمات
+- 📍 خريطة Google Maps مدمجة
+- 🍔 قائمة همبرغر للموبايل
+- 🔧 سهل التخصيص (ملف إعدادات واحد)
+
+## 🚀 التشغيل
+
+### الطريقة الأبسط
+افتح ملف `index.html` مباشرة في المتصفح.
+
+### مع سيرفر محلي
+```bash
+# Python
+python -m http.server 8000
+
+# Node.js
+npx serve .
+
+# PHP
+php -S localhost:8000
+```
+
+## ⚙️ التخصيص
+
+**كل الإعدادات موجودة في ملف `script.js` في كائن `CONFIG` في أعلى الملف:**
+
+### 1. معلومات المطعم
+```javascript
+const CONFIG = {
+    name: "اسم مطعمك",
+    nameShort: "الاسم المختصر",
+    tagline: "الشعار",
+    // ...
+};
+```
+
+### 2. معلومات التواصل
+```javascript
+phone: "+966501234567",
+whatsapp: "+966501234567",
+whatsappMessage: "رسالة الواتساب",
+instagram: "https://instagram.com/your_handle",
+address: "العنوان الكامل",
+```
+
+### 3. ساعات العمل
+```javascript
+hours: [
+    { day: "السبت", time: "12:00 م - 12:00 ص" },
+    // ...
+],
+```
+
+### 4. قائمة الطعام
+```javascript
+menuItems: {
+    appetizers: [
+        {
+            name: "اسم الطبق",
+            desc: "الوصف",
+            price: 25,
+            img: "رابط الصورة"
+        },
+    ],
+    // main, grills, desserts, drinks
+},
+```
+
+### 5. معرض الصور
+```javascript
+gallery: [
+    "رابط صورة 1",
+    "رابط صورة 2",
+    // ...
+],
+```
+
+### 6. آراء العملاء
+```javascript
+testimonials: [
+    {
+        name: "اسم العميل",
+        text: "نص التقييم",
+        stars: 5,
+        date: "قبل أسبوع"
+    },
+],
+```
+
+### 7. تغيير الألوان
+عدّل المتغيرات في أعلى ملف `style.css`:
+```css
+:root {
+    --primary: #D4A547;        /* اللون الرئيسي (ذهبي) */
+    --primary-dark: #B8892E;   /* اللون الرئيسي الداكن */
+    --primary-light: #E8C46A;  /* اللون الرئيسي الفاتح */
+    --bg-dark: #1A1A1A;        /* خلفية الموقع */
+    --bg-darker: #111111;      /* خلفية أغمق */
+    --accent-green: #25D366;   /* لون الواتساب */
+}
+```
+
+## 📁 هيكل الملفات
+
+```
+restaurant-template/
+├── index.html      # الصفحة الرئيسية
+├── style.css       # ملف التنسيقات
+├── script.js       # الجافاسكربت + إعدادات التخصيص
+└── README.md       # هذا الملف
+```
+
+## 🌐 النشر (Deployment)
+
+### Vercel (مجاني)
+```bash
+npm i -g vercel
+vercel
+```
+
+### Netlify (مجاني)
+1. ارفع الملفات على GitHub
+2. اربط المستودع بـ Netlify
+3. سيُنشر تلقائياً
+
+### GitHub Pages (مجاني)
+1. ارفع الملفات على مستودع GitHub
+2. Settings → Pages → Source: main branch
+3. سيكون متاحاً على `username.github.io/repo-name`
+
+### استضافة عادية
+ارفع الملفات الثلاثة (index.html, style.css, script.js) على أي استضافة ويب.
+
+## 📱 صور الأطباق
+
+استبدل روابط الصور في `CONFIG.menuItems` بصور أطباقك الحقيقية.
+
+**نصيحة:** استخدم صور بحجم:
+- أطباق المنيو: 400×300 بكسل
+- معرض الصور: 600×400 بكسل
+- صورة الهيرو: 1920×1080 بكسل
+
+يمكنك رفع الصور على:
+- [Cloudinary](https://cloudinary.com) (مجاني)
+- [ImgBB](https://imgbb.com) (مجاني)
+- أو استخدام صور من مجلد على الاستضافة
+
+## 💡 نصائح
+
+1. غيّر صورة الهيرو من ملف `style.css` (ابحث عن `.hero` background)
+2. لإضافة فئة جديدة في المنيو، أضف tab في HTML وبيانات في `CONFIG.menuItems`
+3. لتغيير الخط، عدّل رابط Google Fonts في `index.html` و `--font` في CSS
+
+## 📄 الرخصة
+
+هذا القالب مجاني للاستخدام التجاري. يمكنك تعديله وبيعه كما تشاء.
+
+---
+
+صنع بـ ❤️ للمطاعم العربية
