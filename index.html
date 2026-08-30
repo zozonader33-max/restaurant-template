@@ -1,212 +1,87 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ar" dir="rtl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>مطعم الديوان | المذاق الأصيل</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="نُوَر — قهوة مختصة، حلويات طازجة، ومساحة هادئة في قلب حمص." />
+  <title>نُوَر | قهوة مختصة</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Noto+Kufi+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <!-- Header -->
-    <header class="header" id="header">
-        <div class="container header-container">
-            <a href="#" class="logo">
-                <span class="logo-icon">🏮</span>
-                <span class="logo-text" id="logo-text">الديوان</span>
-            </a>
-            <nav class="nav" id="nav">
-                <a href="#hero" class="nav-link">الرئيسية</a>
-                <a href="#about" class="nav-link">من نحن</a>
-                <a href="#menu" class="nav-link">المنيو</a>
-                <a href="#gallery" class="nav-link">الصور</a>
-                <a href="#testimonials" class="nav-link">آراء العملاء</a>
-                <a href="#location" class="nav-link">الموقع</a>
-                <a href="#contact" class="nav-link">تواصل</a>
-            </nav>
-            <button class="hamburger" id="hamburger" aria-label="القائمة">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-        </div>
-    </header>
+  <div class="grain"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="نُوَر"><span class="brand-dot"></span>NŪR<span class="brand-ar">نُوَر</span></a>
+    <nav aria-label="التنقل الرئيسي">
+      <a href="#menu" data-t="navMenu">المنيو</a>
+      <a href="#space" data-t="navSpace">المكان</a>
+      <a href="#visit" data-t="navVisit">زورنا</a>
+    </nav>
+    <button class="language" id="language" type="button" aria-label="Switch language">EN</button>
+  </header>
 
-    <!-- Hero Section -->
-    <section class="hero" id="hero">
-        <div class="hero-overlay"></div>
-        <div class="hero-content">
-            <h1 class="hero-title" id="hero-title">مطعم الديوان</h1>
-            <p class="hero-tagline" id="hero-tagline">حيث يلتقي التراث بالمذاق الأصيل</p>
-            <div class="hero-buttons">
-                <a href="#" class="btn btn-primary" id="btn-order">
-                    <i class="fab fa-whatsapp"></i>
-                    اطلب الآن
-                </a>
-                <a href="#menu" class="btn btn-secondary">
-                    <i class="fas fa-utensils"></i>
-                    شاهد المنيو
-                </a>
-            </div>
+  <main id="home">
+    <section class="hero">
+      <div class="hero-copy reveal">
+        <p class="kicker" data-t="kicker">قهوة مختصة · حمص</p>
+        <h1 data-t-html="headline">مساحتك الصغيرة<br /><em>لشي حقيقي.</em></h1>
+        <p class="lead" data-t="lead">قهوة محمّصة بعناية، حلويات يومية، ووقت إلك بعيد عن العجلة.</p>
+        <div class="hero-actions">
+          <a class="button button-dark" href="#menu" data-t="viewMenu">شوف المنيو <span>↙</span></a>
+          <a class="text-link" href="https://wa.me/963000000000" target="_blank" rel="noopener" data-t="whatsapp">اطلب عبر واتساب</a>
         </div>
-        <div class="hero-scroll">
-            <i class="fas fa-chevron-down"></i>
-        </div>
+      </div>
+      <figure class="hero-visual reveal">
+        <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1200&q=85" alt="فنجان قهوة مختصة" />
+        <figcaption><span>01</span><span data-t="caption">روتينك المفضل، بطعم جديد</span></figcaption>
+        <div class="circle-note" data-t="note">محضّرة<br />على مهلك</div>
+      </figure>
     </section>
 
-    <!-- About Section -->
-    <section class="section about" id="about">
-        <div class="container">
-            <div class="about-grid">
-                <div class="about-image">
-                    <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=600&h=700&fit=crop" alt="داخل المطعم" loading="lazy">
-                    <div class="about-image-accent"></div>
-                </div>
-                <div class="about-content">
-                    <h2 class="section-title">قصتنا</h2>
-                    <div class="section-divider"></div>
-                    <p class="about-text">
-                        منذ أكثر من عشرين عاماً، بدأنا رحلتنا في عالم الطبخ العربي الأصيل. نقدم لكم أشهى المأكولات المحضّرة بأيدي أمهر الطهاة، باستخدام أجود المكونات الطازجة يومياً.
-                    </p>
-                    <p class="about-text">
-                        نؤمن بأن الطعام ليس مجرد وجبة، بل هو تجربة متكاملة تجمع بين النكهات الأصيلة والأجواء الدافئة والضيافة العربية الحقيقية.
-                    </p>
-                    <div class="about-stats">
-                        <div class="stat">
-                            <span class="stat-number">20+</span>
-                            <span class="stat-label">سنة خبرة</span>
-                        </div>
-                        <div class="stat">
-                            <span class="stat-number">50+</span>
-                            <span class="stat-label">طبق مميز</span>
-                        </div>
-                        <div class="stat">
-                            <span class="stat-number">10K+</span>
-                            <span class="stat-label">عميل سعيد</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <section class="marquee" aria-label="ميزات الكافيه">
+      <div><span data-t="marquee1">قهوة مختصة</span><i>✦</i><span data-t="marquee2">حبوب موسمية</span><i>✦</i><span data-t="marquee3">حلويات مخبوزة يومياً</span><i>✦</i><span data-t="marquee1">قهوة مختصة</span><i>✦</i><span data-t="marquee2">حبوب موسمية</span><i>✦</i></div>
     </section>
 
-    <!-- Menu Section -->
-    <section class="section menu" id="menu">
-        <div class="container">
-            <h2 class="section-title text-center">قائمة الطعام</h2>
-            <div class="section-divider center"></div>
-            <div class="menu-tabs" id="menu-tabs">
-                <button class="menu-tab active" data-category="appetizers">مقبلات</button>
-                <button class="menu-tab" data-category="main">أطباق رئيسية</button>
-                <button class="menu-tab" data-category="grills">مشاوي</button>
-                <button class="menu-tab" data-category="desserts">حلويات</button>
-                <button class="menu-tab" data-category="drinks">مشروبات</button>
-            </div>
-            <div class="menu-grid" id="menu-grid">
-                <!-- Items injected by JS -->
-            </div>
-        </div>
+    <section class="menu section" id="menu">
+      <div class="section-top reveal">
+        <p class="kicker" data-t="menuKicker">اختياراتنا</p>
+        <h2 data-t-html="menuTitle">أشياء صغيرة<br />بتظبط يومك.</h2>
+        <p data-t="menuText">كل مشروب ينعمل وقت الطلب. اختار مزاجك، وخلي الباقي علينا.</p>
+      </div>
+      <div class="menu-list reveal" id="menuList"></div>
+      <a class="button button-outline reveal" href="https://wa.me/963000000000" target="_blank" rel="noopener" data-t="order">اطلب أو اسأل عن منيو اليوم <span>↙</span></a>
     </section>
 
-    <!-- Gallery Section -->
-    <section class="section gallery" id="gallery">
-        <div class="container">
-            <h2 class="section-title text-center">معرض الصور</h2>
-            <div class="section-divider center"></div>
-            <div class="gallery-grid" id="gallery-grid">
-                <!-- Items injected by JS -->
-            </div>
-        </div>
+    <section class="space section" id="space">
+      <div class="space-image reveal"><img src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=1400&q=85" alt="جلسات كافيه نُوَر" /></div>
+      <div class="space-copy reveal">
+        <p class="kicker" data-t="spaceKicker">أكثر من قهوة</p>
+        <h2 data-t-html="spaceTitle">تعال خذ<br /><em>مساحتك.</em></h2>
+        <p data-t="spaceText">زاوية للقراءة، موعد لطيف، أو ساعتين شغل بهدوء. في نُوَر، ما في داعي تستعجل.</p>
+        <ul>
+          <li><span>01</span><b data-t="benefit1">واي فاي سريع ومساحات شغل</b></li>
+          <li><span>02</span><b data-t="benefit2">جلسات داخلية وتراس مشمس</b></li>
+          <li><span>03</span><b data-t="benefit3">منيو موسمي بيتغيّر باستمرار</b></li>
+        </ul>
+      </div>
     </section>
 
-    <!-- Lightbox -->
-    <div class="lightbox" id="lightbox">
-        <button class="lightbox-close" id="lightbox-close">&times;</button>
-        <img src="" alt="" class="lightbox-img" id="lightbox-img">
-        <button class="lightbox-prev" id="lightbox-prev"><i class="fas fa-chevron-right"></i></button>
-        <button class="lightbox-next" id="lightbox-next"><i class="fas fa-chevron-left"></i></button>
-    </div>
-
-    <!-- Testimonials Section -->
-    <section class="section testimonials" id="testimonials">
-        <div class="container">
-            <h2 class="section-title text-center">آراء عملائنا</h2>
-            <div class="section-divider center"></div>
-            <div class="testimonials-grid" id="testimonials-grid">
-                <!-- Items injected by JS -->
-            </div>
+    <section class="visit section" id="visit">
+      <div class="visit-card reveal">
+        <p class="kicker" data-t="visitKicker">نستناك</p>
+        <h2 data-t-html="visitTitle">أول رشفة<br /><em>بتستناك.</em></h2>
+        <div class="visit-grid">
+          <div><small data-t="hours">ساعات العمل</small><strong data-t-html="hoursValue">8:00 ص — 11:30 م<br />كل الأيام</strong></div>
+          <div><small data-t="location">الموقع</small><strong data-t-html="locationValue">حمص · حي الإنشاءات<br />قرب الساعة الجديدة</strong></div>
         </div>
+        <a class="button button-light" href="https://maps.google.com/?q=Homs" target="_blank" rel="noopener" data-t="maps">افتح الخريطة <span>↙</span></a>
+      </div>
     </section>
+  </main>
 
-    <!-- Location Section -->
-    <section class="section location" id="location">
-        <div class="container">
-            <h2 class="section-title text-center">الموقع وساعات العمل</h2>
-            <div class="section-divider center"></div>
-            <div class="location-grid">
-                <div class="map-container">
-                    <iframe 
-                        id="map-iframe"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3624.674541286158!2d46.6752957!3d24.7135517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjTCsDQyJzQ4LjgiTiA0NsKwNDAnMzEuMSJF!5e0!3m2!1sar!2ssa!4v1234567890"
-                        width="100%" 
-                        height="400" 
-                        style="border:0;" 
-                        allowfullscreen="" 
-                        loading="lazy">
-                    </iframe>
-                </div>
-                <div class="hours-container">
-                    <h3 class="hours-title"><i class="fas fa-clock"></i> ساعات العمل</h3>
-                    <table class="hours-table" id="hours-table">
-                        <!-- Injected by JS -->
-                    </table>
-                    <div class="location-info">
-                        <p><i class="fas fa-map-marker-alt"></i> <span id="address-text">شارع الملك فهد، الرياض، المملكة العربية السعودية</span></p>
-                        <p><i class="fas fa-phone-alt"></i> <span id="phone-text" dir="ltr">+966 50 123 4567</span></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer" id="contact">
-        <div class="container">
-            <div class="footer-grid">
-                <div class="footer-about">
-                    <h3 class="footer-logo" id="footer-logo">🏮 الديوان</h3>
-                    <p>حيث يلتقي التراث بالمذاق الأصيل. نقدم لكم أشهى المأكولات العربية في أجواء تجمع بين الأصالة والحداثة.</p>
-                </div>
-                <div class="footer-links">
-                    <h4>روابط سريعة</h4>
-                    <a href="#about">من نحن</a>
-                    <a href="#menu">المنيو</a>
-                    <a href="#gallery">الصور</a>
-                    <a href="#testimonials">آراء العملاء</a>
-                    <a href="#location">الموقع</a>
-                </div>
-                <div class="footer-contact">
-                    <h4>تواصل معنا</h4>
-                    <a href="#" id="footer-whatsapp"><i class="fab fa-whatsapp"></i> واتساب</a>
-                    <a href="#" id="footer-phone"><i class="fas fa-phone-alt"></i> <span dir="ltr">+966 50 123 4567</span></a>
-                    <a href="#" id="footer-instagram"><i class="fab fa-instagram"></i> انستقرام</a>
-                    <a href="#" id="footer-location-link"><i class="fas fa-map-marker-alt"></i> الموقع على الخريطة</a>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>© <span id="year"></span> <span id="footer-name">مطعم الديوان</span>. جميع الحقوق محفوظة.</p>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Floating WhatsApp Button -->
-    <a href="#" class="whatsapp-float" id="whatsapp-float" aria-label="تواصل واتساب">
-        <i class="fab fa-whatsapp"></i>
-    </a>
-
-    <script src="script.js"></script>
+  <footer><a class="brand" href="#home"><span class="brand-dot"></span>NŪR<span class="brand-ar">نُوَر</span></a><span data-t="footer">قهوة طيبة · ووقت أطيب</span><span>© 2026</span></footer>
+  <script src="script.js"></script>
 </body>
 </html>
