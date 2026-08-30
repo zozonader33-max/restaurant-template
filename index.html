@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Noto+Kufi+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="menu-cards.css" />
 </head>
 <body>
   <div class="grain"></div>
@@ -50,7 +51,8 @@
         <h2 data-t-html="menuTitle">أشياء صغيرة<br />بتظبط يومك.</h2>
         <p data-t="menuText">كل مشروب ينعمل وقت الطلب. اختار مزاجك، وخلي الباقي علينا.</p>
       </div>
-      <div class="menu-list reveal" id="menuList"></div>
+      <div class="menu-tabs reveal" id="menuTabs"><button class="active" data-category="coffee">قهوة</button><button data-category="cold">بارد</button><button data-category="sweet">حلويات</button></div>
+      <div class="menu-list menu-cards reveal" id="menuList"></div>
       <a class="button button-outline reveal" href="https://wa.me/963000000000" target="_blank" rel="noopener" data-t="order">اطلب أو اسأل عن منيو اليوم <span>↙</span></a>
     </section>
 
