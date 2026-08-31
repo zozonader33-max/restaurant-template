@@ -1,212 +1,58 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ar" dir="rtl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>مطعم الديوان | المذاق الأصيل</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="لَمسة — هدايا مخصصة وسوفونيرات للمناسبات في حمص ودمشق.">
+  <title>لَمسة | هدايا بتشبه أصحابها</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Noto+Kufi+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Header -->
-    <header class="header" id="header">
-        <div class="container header-container">
-            <a href="#" class="logo">
-                <span class="logo-icon">🏮</span>
-                <span class="logo-text" id="logo-text">الديوان</span>
-            </a>
-            <nav class="nav" id="nav">
-                <a href="#hero" class="nav-link">الرئيسية</a>
-                <a href="#about" class="nav-link">من نحن</a>
-                <a href="#menu" class="nav-link">المنيو</a>
-                <a href="#gallery" class="nav-link">الصور</a>
-                <a href="#testimonials" class="nav-link">آراء العملاء</a>
-                <a href="#location" class="nav-link">الموقع</a>
-                <a href="#contact" class="nav-link">تواصل</a>
-            </nav>
-            <button class="hamburger" id="hamburger" aria-label="القائمة">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-        </div>
-    </header>
-
-    <!-- Hero Section -->
-    <section class="hero" id="hero">
-        <div class="hero-overlay"></div>
-        <div class="hero-content">
-            <h1 class="hero-title" id="hero-title">مطعم الديوان</h1>
-            <p class="hero-tagline" id="hero-tagline">حيث يلتقي التراث بالمذاق الأصيل</p>
-            <div class="hero-buttons">
-                <a href="#" class="btn btn-primary" id="btn-order">
-                    <i class="fab fa-whatsapp"></i>
-                    اطلب الآن
-                </a>
-                <a href="#menu" class="btn btn-secondary">
-                    <i class="fas fa-utensils"></i>
-                    شاهد المنيو
-                </a>
-            </div>
-        </div>
-        <div class="hero-scroll">
-            <i class="fas fa-chevron-down"></i>
-        </div>
+  <header>
+    <a class="logo" href="#top">لَمسة<span>LAMSA</span></a>
+    <nav><a href="#catalog" data-i18n="navCatalog">الكتالوج</a><a href="#story" data-i18n="navStory">الحكاية</a><a href="#contact" data-i18n="navContact">تواصل</a></nav>
+    <button id="lang" type="button">EN</button>
+  </header>
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy reveal">
+        <p class="eyebrow" data-i18n="heroEyebrow">هدايا مخصصة · حمص ودمشق</p>
+        <h1 data-i18n-html="heroTitle">مو بس هدية،<br><em>هي لحظة.</em></h1>
+        <p data-i18n="heroText">نصمّم هديتك بالاسم والتفاصيل اللي بتحبها، ونجهّزها لتوصل بطريقة بتضل بالذاكرة.</p>
+        <div class="actions"><a href="#catalog" class="button" data-i18n="shop">شوف المجموعة <span>↙</span></a><a href="https://wa.me/963000000000" target="_blank" class="link" data-i18n="custom">اطلب تصميم خاص</a></div>
+      </div>
+      <div class="gift-stage reveal">
+        <div class="orbit-label"><span data-i18n="drag">حرّك المؤشر</span> ✦</div>
+        <div id="gift3d" aria-label="صندوق هدية ثلاثي الأبعاد شفاف الخلفية"></div>
+        <small>01 / SIGNATURE GIFT</small>
+      </div>
     </section>
 
-    <!-- About Section -->
-    <section class="section about" id="about">
-        <div class="container">
-            <div class="about-grid">
-                <div class="about-image">
-                    <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=600&h=700&fit=crop" alt="داخل المطعم" loading="lazy">
-                    <div class="about-image-accent"></div>
-                </div>
-                <div class="about-content">
-                    <h2 class="section-title">قصتنا</h2>
-                    <div class="section-divider"></div>
-                    <p class="about-text">
-                        منذ أكثر من عشرين عاماً، بدأنا رحلتنا في عالم الطبخ العربي الأصيل. نقدم لكم أشهى المأكولات المحضّرة بأيدي أمهر الطهاة، باستخدام أجود المكونات الطازجة يومياً.
-                    </p>
-                    <p class="about-text">
-                        نؤمن بأن الطعام ليس مجرد وجبة، بل هو تجربة متكاملة تجمع بين النكهات الأصيلة والأجواء الدافئة والضيافة العربية الحقيقية.
-                    </p>
-                    <div class="about-stats">
-                        <div class="stat">
-                            <span class="stat-number">20+</span>
-                            <span class="stat-label">سنة خبرة</span>
-                        </div>
-                        <div class="stat">
-                            <span class="stat-number">50+</span>
-                            <span class="stat-label">طبق مميز</span>
-                        </div>
-                        <div class="stat">
-                            <span class="stat-number">10K+</span>
-                            <span class="stat-label">عميل سعيد</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <section class="ticker"><div><span data-i18n="tick1">هدايا بالاسم</span> ✦ <span data-i18n="tick2">تغليف يدوي</span> ✦ <span data-i18n="tick3">تفاصيل حسب الطلب</span> ✦ <span data-i18n="tick1">هدايا بالاسم</span> ✦ <span data-i18n="tick2">تغليف يدوي</span> ✦</div></section>
+
+    <section class="catalog" id="catalog">
+      <div class="section-heading reveal"><div><p class="eyebrow" data-i18n="catalogEyebrow">مختارات لَمسة</p><h2 data-i18n-html="catalogTitle">هدايا معمولة<br><em>على ذوقك.</em></h2></div><p data-i18n="catalogText">اختار المناسبة، وعدّل الاسم والألوان والتفاصيل وقت الطلب.</p></div>
+      <div class="filters reveal" id="filters"><button class="active" data-filter="all" data-i18n="all">الكل</button><button data-filter="graduation" data-i18n="graduation">تخرّج</button><button data-filter="love" data-i18n="love">مناسبات</button><button data-filter="personal" data-i18n="personal">شخصي</button></div>
+      <div class="products reveal" id="products"></div>
     </section>
 
-    <!-- Menu Section -->
-    <section class="section menu" id="menu">
-        <div class="container">
-            <h2 class="section-title text-center">قائمة الطعام</h2>
-            <div class="section-divider center"></div>
-            <div class="menu-tabs" id="menu-tabs">
-                <button class="menu-tab active" data-category="appetizers">مقبلات</button>
-                <button class="menu-tab" data-category="main">أطباق رئيسية</button>
-                <button class="menu-tab" data-category="grills">مشاوي</button>
-                <button class="menu-tab" data-category="desserts">حلويات</button>
-                <button class="menu-tab" data-category="drinks">مشروبات</button>
-            </div>
-            <div class="menu-grid" id="menu-grid">
-                <!-- Items injected by JS -->
-            </div>
-        </div>
+    <section class="film" id="story">
+      <video class="story-video" muted loop playsinline preload="metadata" poster="https://images.unsplash.com/photo-1549465220-1a8b9238cd48?auto=format&fit=crop&w=1500&q=85"><source src="https://assets.mixkit.co/videos/14839/14839-360.mp4" type="video/mp4"></video>
+      <div class="film-shade"></div>
+      <div class="film-copy"><span>02 / THE MOMENT</span><h2 data-i18n-html="filmTitle">كل تفصيل<br><em>إلو معنى.</em></h2><p data-i18n="filmText">من اختيار القطعة للتغليف الأخير، كل خطوة معمولة بإيدين بتحب التفاصيل.</p></div>
     </section>
 
-    <!-- Gallery Section -->
-    <section class="section gallery" id="gallery">
-        <div class="container">
-            <h2 class="section-title text-center">معرض الصور</h2>
-            <div class="section-divider center"></div>
-            <div class="gallery-grid" id="gallery-grid">
-                <!-- Items injected by JS -->
-            </div>
-        </div>
+    <section class="process">
+      <p class="eyebrow" data-i18n="processEyebrow">كيف منشتغل</p>
+      <div class="steps"><article><span>01</span><h3 data-i18n="step1Title">اختار فكرتك</h3><p data-i18n="step1Text">من الكتالوج أو ابعتلنا فكرتك الخاصة.</p></article><article><span>02</span><h3 data-i18n="step2Title">نثبت التفاصيل</h3><p data-i18n="step2Text">الاسم، اللون، التاريخ، وطريقة التغليف.</p></article><article><span>03</span><h3 data-i18n="step3Title">نجهّزها بحب</h3><p data-i18n="step3Text">ونتواصل معك وقت تصير جاهزة.</p></article></div>
     </section>
 
-    <!-- Lightbox -->
-    <div class="lightbox" id="lightbox">
-        <button class="lightbox-close" id="lightbox-close">&times;</button>
-        <img src="" alt="" class="lightbox-img" id="lightbox-img">
-        <button class="lightbox-prev" id="lightbox-prev"><i class="fas fa-chevron-right"></i></button>
-        <button class="lightbox-next" id="lightbox-next"><i class="fas fa-chevron-left"></i></button>
-    </div>
-
-    <!-- Testimonials Section -->
-    <section class="section testimonials" id="testimonials">
-        <div class="container">
-            <h2 class="section-title text-center">آراء عملائنا</h2>
-            <div class="section-divider center"></div>
-            <div class="testimonials-grid" id="testimonials-grid">
-                <!-- Items injected by JS -->
-            </div>
-        </div>
-    </section>
-
-    <!-- Location Section -->
-    <section class="section location" id="location">
-        <div class="container">
-            <h2 class="section-title text-center">الموقع وساعات العمل</h2>
-            <div class="section-divider center"></div>
-            <div class="location-grid">
-                <div class="map-container">
-                    <iframe 
-                        id="map-iframe"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3624.674541286158!2d46.6752957!3d24.7135517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjTCsDQyJzQ4LjgiTiA0NsKwNDAnMzEuMSJF!5e0!3m2!1sar!2ssa!4v1234567890"
-                        width="100%" 
-                        height="400" 
-                        style="border:0;" 
-                        allowfullscreen="" 
-                        loading="lazy">
-                    </iframe>
-                </div>
-                <div class="hours-container">
-                    <h3 class="hours-title"><i class="fas fa-clock"></i> ساعات العمل</h3>
-                    <table class="hours-table" id="hours-table">
-                        <!-- Injected by JS -->
-                    </table>
-                    <div class="location-info">
-                        <p><i class="fas fa-map-marker-alt"></i> <span id="address-text">شارع الملك فهد، الرياض، المملكة العربية السعودية</span></p>
-                        <p><i class="fas fa-phone-alt"></i> <span id="phone-text" dir="ltr">+966 50 123 4567</span></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer" id="contact">
-        <div class="container">
-            <div class="footer-grid">
-                <div class="footer-about">
-                    <h3 class="footer-logo" id="footer-logo">🏮 الديوان</h3>
-                    <p>حيث يلتقي التراث بالمذاق الأصيل. نقدم لكم أشهى المأكولات العربية في أجواء تجمع بين الأصالة والحداثة.</p>
-                </div>
-                <div class="footer-links">
-                    <h4>روابط سريعة</h4>
-                    <a href="#about">من نحن</a>
-                    <a href="#menu">المنيو</a>
-                    <a href="#gallery">الصور</a>
-                    <a href="#testimonials">آراء العملاء</a>
-                    <a href="#location">الموقع</a>
-                </div>
-                <div class="footer-contact">
-                    <h4>تواصل معنا</h4>
-                    <a href="#" id="footer-whatsapp"><i class="fab fa-whatsapp"></i> واتساب</a>
-                    <a href="#" id="footer-phone"><i class="fas fa-phone-alt"></i> <span dir="ltr">+966 50 123 4567</span></a>
-                    <a href="#" id="footer-instagram"><i class="fab fa-instagram"></i> انستقرام</a>
-                    <a href="#" id="footer-location-link"><i class="fas fa-map-marker-alt"></i> الموقع على الخريطة</a>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>© <span id="year"></span> <span id="footer-name">مطعم الديوان</span>. جميع الحقوق محفوظة.</p>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Floating WhatsApp Button -->
-    <a href="#" class="whatsapp-float" id="whatsapp-float" aria-label="تواصل واتساب">
-        <i class="fab fa-whatsapp"></i>
-    </a>
-
-    <script src="script.js"></script>
+    <section class="contact" id="contact"><div><p class="eyebrow" data-i18n="contactEyebrow">هدية خاصة ببالك؟</p><h2 data-i18n-html="contactTitle">خلّينا نعملها<br><em>سوا.</em></h2></div><a href="https://wa.me/963000000000" target="_blank" data-i18n="whatsapp">ابدأ الطلب عبر واتساب ↙</a></section>
+  </main>
+  <footer><strong>لَمسة / LAMSA</strong><span data-i18n="footer">هدايا بتشبه أصحابها</span><span>© 2026</span></footer>
+  <script src="script.js"></script>
+  <script type="module" src="gift3d.js"></script>
 </body>
 </html>
