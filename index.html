@@ -1,212 +1,40 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ar" dir="rtl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>مطعم الديوان | المذاق الأصيل</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>سِنّة | عيادة أسنان</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono&family=Manrope:wght@400;500;600;700;800&family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Header -->
-    <header class="header" id="header">
-        <div class="container header-container">
-            <a href="#" class="logo">
-                <span class="logo-icon">🏮</span>
-                <span class="logo-text" id="logo-text">الديوان</span>
-            </a>
-            <nav class="nav" id="nav">
-                <a href="#hero" class="nav-link">الرئيسية</a>
-                <a href="#about" class="nav-link">من نحن</a>
-                <a href="#menu" class="nav-link">المنيو</a>
-                <a href="#gallery" class="nav-link">الصور</a>
-                <a href="#testimonials" class="nav-link">آراء العملاء</a>
-                <a href="#location" class="nav-link">الموقع</a>
-                <a href="#contact" class="nav-link">تواصل</a>
-            </nav>
-            <button class="hamburger" id="hamburger" aria-label="القائمة">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-        </div>
-    </header>
-
-    <!-- Hero Section -->
-    <section class="hero" id="hero">
-        <div class="hero-overlay"></div>
-        <div class="hero-content">
-            <h1 class="hero-title" id="hero-title">مطعم الديوان</h1>
-            <p class="hero-tagline" id="hero-tagline">حيث يلتقي التراث بالمذاق الأصيل</p>
-            <div class="hero-buttons">
-                <a href="#" class="btn btn-primary" id="btn-order">
-                    <i class="fab fa-whatsapp"></i>
-                    اطلب الآن
-                </a>
-                <a href="#menu" class="btn btn-secondary">
-                    <i class="fas fa-utensils"></i>
-                    شاهد المنيو
-                </a>
-            </div>
-        </div>
-        <div class="hero-scroll">
-            <i class="fas fa-chevron-down"></i>
-        </div>
+  <aside class="rail"><a class="mark" href="#"><b>سِنّة</b><i>SINNA</i></a><div class="rail-line"></div><a href="#booking">01<br><span data-ar="احجز" data-en="Book">احجز</span></a><a href="#care">02<br><span data-ar="الرعاية" data-en="Care">الرعاية</span></a><a href="#visit">03<br><span data-ar="الزيارة" data-en="Visit">الزيارة</span></a><button class="lang" id="lang">EN</button></aside>
+  <main>
+    <nav class="mobile-nav"><a class="mark" href="#"><b>سِنّة</b><i>SINNA</i></a><button class="lang" id="lang-mobile">EN</button></nav>
+    <section class="booking" id="booking">
+      <div class="booking-copy reveal"><p class="eyebrow" data-ar="عيادة أسنان · حمص" data-en="DENTAL STUDIO · HOMS">عيادة أسنان · حمص</p><h1 data-ar="ابتسامتك،<br>بخطة واضحة." data-en="Your smile,<br>clearly planned.">ابتسامتك،<br>بخطة واضحة.</h1><p class="intro" data-ar="موعدك يبدأ باختيار بسيط. سنرتّب الخطوة التالية معك، بهدوء ووضوح." data-en="Your appointment begins with a simple choice. We’ll shape the next step with calm clarity.">موعدك يبدأ باختيار بسيط. سنرتّب الخطوة التالية معك، بهدوء ووضوح.</p><div class="micro"><span>●</span><span data-ar="حجز تجريبي سريع" data-en="QUICK DEMO BOOKING">حجز تجريبي سريع</span></div></div>
+      <div class="planner reveal">
+        <div class="planner-head"><span>01 / 03</span><b data-ar="ابنِ موعدك" data-en="BUILD YOUR VISIT">ابنِ موعدك</b></div>
+        <div class="step"><label data-ar="ما الذي تحتاجه اليوم؟" data-en="WHAT DO YOU NEED TODAY?">ما الذي تحتاجه اليوم؟</label><div class="service-list">
+          <button class="service active" data-service="فحص أولي" data-service-en="Initial check"><b>01</b><span data-ar="فحص أولي" data-en="Initial check">فحص أولي</span><em data-ar="35 ل.س" data-en="SYP 35">35 ل.س</em></button>
+          <button class="service" data-service="تنظيف وتبييض" data-service-en="Cleaning & whitening"><b>02</b><span data-ar="تنظيف وتبييض" data-en="Cleaning & whitening">تنظيف وتبييض</span><em data-ar="120 ل.س" data-en="SYP 120">120 ل.س</em></button>
+          <button class="service" data-service="تجميل ابتسامة" data-service-en="Smile design"><b>03</b><span data-ar="تجميل ابتسامة" data-en="Smile design">تجميل ابتسامة</span><em data-ar="250 ل.س" data-en="SYP 250">250 ل.س</em></button>
+        </div></div>
+        <div class="step compact"><label data-ar="اختر وقتاً مناسباً" data-en="CHOOSE A TIME">اختر وقتاً مناسباً</label><div class="slots"><button class="slot active" data-day="غداً" data-day-en="Tomorrow">غداً<br><b>10:30</b></button><button class="slot" data-day="غداً" data-day-en="Tomorrow">غداً<br><b>12:00</b></button><button class="slot" data-day="الخميس" data-day-en="Thursday">الخميس<br><b>16:30</b></button></div></div>
+        <form id="booking-form"><input required id="client-name" placeholder="الاسم الكامل" data-ar-placeholder="الاسم الكامل" data-en-placeholder="Full name"><input required id="client-phone" inputmode="tel" placeholder="رقم واتساب" data-ar-placeholder="رقم واتساب" data-en-placeholder="WhatsApp number"><button type="submit" class="confirm"><span data-ar="تأكيد الموعد" data-en="CONFIRM VISIT">تأكيد الموعد</span><b>↗</b></button></form>
+      </div>
+      <div id="tooth-scene" aria-label="3D dental tooth visualization"></div>
+      <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
     </section>
-
-    <!-- About Section -->
-    <section class="section about" id="about">
-        <div class="container">
-            <div class="about-grid">
-                <div class="about-image">
-                    <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=600&h=700&fit=crop" alt="داخل المطعم" loading="lazy">
-                    <div class="about-image-accent"></div>
-                </div>
-                <div class="about-content">
-                    <h2 class="section-title">قصتنا</h2>
-                    <div class="section-divider"></div>
-                    <p class="about-text">
-                        منذ أكثر من عشرين عاماً، بدأنا رحلتنا في عالم الطبخ العربي الأصيل. نقدم لكم أشهى المأكولات المحضّرة بأيدي أمهر الطهاة، باستخدام أجود المكونات الطازجة يومياً.
-                    </p>
-                    <p class="about-text">
-                        نؤمن بأن الطعام ليس مجرد وجبة، بل هو تجربة متكاملة تجمع بين النكهات الأصيلة والأجواء الدافئة والضيافة العربية الحقيقية.
-                    </p>
-                    <div class="about-stats">
-                        <div class="stat">
-                            <span class="stat-number">20+</span>
-                            <span class="stat-label">سنة خبرة</span>
-                        </div>
-                        <div class="stat">
-                            <span class="stat-number">50+</span>
-                            <span class="stat-label">طبق مميز</span>
-                        </div>
-                        <div class="stat">
-                            <span class="stat-number">10K+</span>
-                            <span class="stat-label">عميل سعيد</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Menu Section -->
-    <section class="section menu" id="menu">
-        <div class="container">
-            <h2 class="section-title text-center">قائمة الطعام</h2>
-            <div class="section-divider center"></div>
-            <div class="menu-tabs" id="menu-tabs">
-                <button class="menu-tab active" data-category="appetizers">مقبلات</button>
-                <button class="menu-tab" data-category="main">أطباق رئيسية</button>
-                <button class="menu-tab" data-category="grills">مشاوي</button>
-                <button class="menu-tab" data-category="desserts">حلويات</button>
-                <button class="menu-tab" data-category="drinks">مشروبات</button>
-            </div>
-            <div class="menu-grid" id="menu-grid">
-                <!-- Items injected by JS -->
-            </div>
-        </div>
-    </section>
-
-    <!-- Gallery Section -->
-    <section class="section gallery" id="gallery">
-        <div class="container">
-            <h2 class="section-title text-center">معرض الصور</h2>
-            <div class="section-divider center"></div>
-            <div class="gallery-grid" id="gallery-grid">
-                <!-- Items injected by JS -->
-            </div>
-        </div>
-    </section>
-
-    <!-- Lightbox -->
-    <div class="lightbox" id="lightbox">
-        <button class="lightbox-close" id="lightbox-close">&times;</button>
-        <img src="" alt="" class="lightbox-img" id="lightbox-img">
-        <button class="lightbox-prev" id="lightbox-prev"><i class="fas fa-chevron-right"></i></button>
-        <button class="lightbox-next" id="lightbox-next"><i class="fas fa-chevron-left"></i></button>
-    </div>
-
-    <!-- Testimonials Section -->
-    <section class="section testimonials" id="testimonials">
-        <div class="container">
-            <h2 class="section-title text-center">آراء عملائنا</h2>
-            <div class="section-divider center"></div>
-            <div class="testimonials-grid" id="testimonials-grid">
-                <!-- Items injected by JS -->
-            </div>
-        </div>
-    </section>
-
-    <!-- Location Section -->
-    <section class="section location" id="location">
-        <div class="container">
-            <h2 class="section-title text-center">الموقع وساعات العمل</h2>
-            <div class="section-divider center"></div>
-            <div class="location-grid">
-                <div class="map-container">
-                    <iframe 
-                        id="map-iframe"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3624.674541286158!2d46.6752957!3d24.7135517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjTCsDQyJzQ4LjgiTiA0NsKwNDAnMzEuMSJF!5e0!3m2!1sar!2ssa!4v1234567890"
-                        width="100%" 
-                        height="400" 
-                        style="border:0;" 
-                        allowfullscreen="" 
-                        loading="lazy">
-                    </iframe>
-                </div>
-                <div class="hours-container">
-                    <h3 class="hours-title"><i class="fas fa-clock"></i> ساعات العمل</h3>
-                    <table class="hours-table" id="hours-table">
-                        <!-- Injected by JS -->
-                    </table>
-                    <div class="location-info">
-                        <p><i class="fas fa-map-marker-alt"></i> <span id="address-text">شارع الملك فهد، الرياض، المملكة العربية السعودية</span></p>
-                        <p><i class="fas fa-phone-alt"></i> <span id="phone-text" dir="ltr">+966 50 123 4567</span></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer" id="contact">
-        <div class="container">
-            <div class="footer-grid">
-                <div class="footer-about">
-                    <h3 class="footer-logo" id="footer-logo">🏮 الديوان</h3>
-                    <p>حيث يلتقي التراث بالمذاق الأصيل. نقدم لكم أشهى المأكولات العربية في أجواء تجمع بين الأصالة والحداثة.</p>
-                </div>
-                <div class="footer-links">
-                    <h4>روابط سريعة</h4>
-                    <a href="#about">من نحن</a>
-                    <a href="#menu">المنيو</a>
-                    <a href="#gallery">الصور</a>
-                    <a href="#testimonials">آراء العملاء</a>
-                    <a href="#location">الموقع</a>
-                </div>
-                <div class="footer-contact">
-                    <h4>تواصل معنا</h4>
-                    <a href="#" id="footer-whatsapp"><i class="fab fa-whatsapp"></i> واتساب</a>
-                    <a href="#" id="footer-phone"><i class="fas fa-phone-alt"></i> <span dir="ltr">+966 50 123 4567</span></a>
-                    <a href="#" id="footer-instagram"><i class="fab fa-instagram"></i> انستقرام</a>
-                    <a href="#" id="footer-location-link"><i class="fas fa-map-marker-alt"></i> الموقع على الخريطة</a>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>© <span id="year"></span> <span id="footer-name">مطعم الديوان</span>. جميع الحقوق محفوظة.</p>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Floating WhatsApp Button -->
-    <a href="#" class="whatsapp-float" id="whatsapp-float" aria-label="تواصل واتساب">
-        <i class="fab fa-whatsapp"></i>
-    </a>
-
-    <script src="script.js"></script>
-</body>
-</html>
+    <section class="video-band" id="visit"><div class="video-copy reveal"><p class="eyebrow" data-ar="من خلف الكواليس" data-en="BEHIND THE CARE">من خلف الكواليس</p><h2 data-ar="الدقة جزء<br>من الراحة." data-en="Precision is part<br>of comfort.">الدقة جزء<br>من الراحة.</h2><p data-ar="لقطة تعليمية مرتبطة بالعناية السنيّة، تُعرض بصمت لتبقى التجربة هادئة." data-en="A silent, dental-care study clip that keeps the experience calm.">لقطة تعليمية مرتبطة بالعناية السنيّة، تُعرض بصمت لتبقى التجربة هادئة.</p></div><div class="film reveal"><video autoplay muted loop playsinline poster="https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=1200&q=80"><source src="https://assets.mixkit.co/videos/17563/17563-360.mp4" type="video/mp4"></video><span>FILM / 01</span></div></section>
+    <section class="care" id="care"><div class="care-top reveal"><p class="eyebrow" data-ar="مسار واحد، بلا تعقيد" data-en="ONE CALM PATH">مسار واحد، بلا تعقيد</p><h2 data-ar="من أول سؤال<br>إلى ابتسامة مرتّبة." data-en="From first question<br>to an easy smile.">من أول سؤال<br>إلى ابتسامة مرتّبة.</h2></div><div class="path">
+      <article class="path-item reveal"><span>01</span><div><h3 data-ar="نسمع أولاً" data-en="We listen first">نسمع أولاً</h3><p data-ar="تخبرنا بما يهمك، ونحدد الأولوية." data-en="Tell us what matters; we find the priority.">تخبرنا بما يهمك، ونحدد الأولوية.</p></div></article>
+      <article class="path-item reveal"><span>02</span><div><h3 data-ar="نشرح ببساطة" data-en="We explain simply">نشرح ببساطة</h3><p data-ar="خطة مفهومة وتكلفة واضحة بالليرة الجديدة." data-en="A clear plan and transparent new-lira cost.">خطة مفهومة وتكلفة واضحة بالليرة الجديدة.</p></div></article>
+      <article class="path-item reveal"><span>03</span><div><h3 data-ar="نبدأ بهدوء" data-en="We begin calmly">نبدأ بهدوء</h3><p data-ar="موعد منظم وفريق قريب منك في كل خطوة." data-en="An organized visit with a team beside you.">موعد منظم وفريق قريب منك في كل خطوة.</p></div></article>
+    </div></section>
+    <section class="contact reveal"><div><p class="eyebrow" data-ar="خطوة صغيرة اليوم" data-en="A SMALL STEP TODAY">خطوة صغيرة اليوم</p><h2 data-ar="لديك سؤال قبل الحجز؟" data-en="A question before you book?">لديك سؤال قبل الحجز؟</h2></div><a id="whatsapp" href="https://wa.me/963000000000" target="_blank"><span data-ar="راسلنا على واتساب" data-en="MESSAGE ON WHATSAPP">راسلنا على واتساب</span> <b>↗</b></a></section>
+    <footer><span>© 2026 SINNA DENTAL</span><span data-ar="نموذج HTML STORE" data-en="HTML STORE DEMO">نموذج HTML STORE</span></footer>
+  </main>
+  <div id="toast"><b id="toast-title">✓</b><span id="toast-copy"></span></div>
+  <script src="https://unpkg.com/three@0.160.0/build/three.min.js"></script><script src="script.js"></script>
+</body></html>
