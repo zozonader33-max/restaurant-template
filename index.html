@@ -1,212 +1,85 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ar" dir="rtl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>مطعم الديوان | المذاق الأصيل</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#191915" />
+  <meta name="description" content="مِحور — استوديو أثاث وديكور مع مصمم غرفة تفاعلي" />
+  <title>مِحور | MIHWAR INTERIORS</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;500;600&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <!-- Header -->
-    <header class="header" id="header">
-        <div class="container header-container">
-            <a href="#" class="logo">
-                <span class="logo-icon">🏮</span>
-                <span class="logo-text" id="logo-text">الديوان</span>
-            </a>
-            <nav class="nav" id="nav">
-                <a href="#hero" class="nav-link">الرئيسية</a>
-                <a href="#about" class="nav-link">من نحن</a>
-                <a href="#menu" class="nav-link">المنيو</a>
-                <a href="#gallery" class="nav-link">الصور</a>
-                <a href="#testimonials" class="nav-link">آراء العملاء</a>
-                <a href="#location" class="nav-link">الموقع</a>
-                <a href="#contact" class="nav-link">تواصل</a>
-            </nav>
-            <button class="hamburger" id="hamburger" aria-label="القائمة">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-        </div>
-    </header>
+  <div class="grain" aria-hidden="true"></div>
+  <header class="command">
+    <button class="menu-btn" aria-label="القائمة" data-go="catalog"><span></span><span></span></button>
+    <a class="brand" href="#studio" aria-label="مِحور"><b>مِحور</b><small>MIHWAR</small></a>
+    <nav aria-label="التنقل الرئيسي">
+      <button data-go="studio" data-ar="الاستوديو" data-en="Studio">الاستوديو</button>
+      <button data-go="catalog" data-ar="القطع" data-en="Objects">القطع</button>
+      <button data-go="craft" data-ar="الحرفة" data-en="Craft">الحرفة</button>
+    </nav>
+    <div class="head-actions"><button id="langBtn" aria-label="English">EN</button><button class="quote-pill" data-go="quote"><span data-ar="عرضي" data-en="My quote">عرضي</span> <i id="quoteCount">0</i></button></div>
+  </header>
 
-    <!-- Hero Section -->
-    <section class="hero" id="hero">
-        <div class="hero-overlay"></div>
-        <div class="hero-content">
-            <h1 class="hero-title" id="hero-title">مطعم الديوان</h1>
-            <p class="hero-tagline" id="hero-tagline">حيث يلتقي التراث بالمذاق الأصيل</p>
-            <div class="hero-buttons">
-                <a href="#" class="btn btn-primary" id="btn-order">
-                    <i class="fab fa-whatsapp"></i>
-                    اطلب الآن
-                </a>
-                <a href="#menu" class="btn btn-secondary">
-                    <i class="fas fa-utensils"></i>
-                    شاهد المنيو
-                </a>
-            </div>
+  <main>
+    <section id="studio" class="studio">
+      <div class="room-stage" id="roomStage">
+        <img id="roomImage" src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1800&q=88" alt="غرفة معيشة بتصميم داخلي عصري" />
+        <div class="shade"></div>
+        <div class="spatial" aria-label="كرسي ثلاثي الأبعاد متفاعل"><canvas id="chair3d"></canvas><span data-ar="اسحب القطعة" data-en="Drag the object">اسحب القطعة</span></div>
+        <p class="edition">01 / LIVING EDIT</p>
+        <div class="room-copy reveal">
+          <span class="eyebrow" data-ar="مختبر الغرفة" data-en="ROOM LAB">مختبر الغرفة</span>
+          <h1 id="roomTitle" data-ar="هدوءٌ له ملمس." data-en="Quiet, with texture.">هدوءٌ له ملمس.</h1>
+          <p id="roomDesc" data-ar="خشب دافئ، كتان طبيعي، ومسافات تتنفس." data-en="Warm wood, natural linen, and room to breathe.">خشب دافئ، كتان طبيعي، ومسافات تتنفس.</p>
         </div>
-        <div class="hero-scroll">
-            <i class="fas fa-chevron-down"></i>
-        </div>
+      </div>
+      <aside class="lab-panel">
+        <div class="panel-top"><span data-ar="كوّن غرفتك" data-en="Compose your room">كوّن غرفتك</span><b id="roomPrice">8,450 ل.س</b></div>
+        <div class="control-block"><label data-ar="المشهد" data-en="Mood">المشهد</label><div class="segmented" id="moods"><button class="active" data-mood="calm" data-ar="هادئ" data-en="Calm">هادئ</button><button data-mood="bold" data-ar="جريء" data-en="Bold">جريء</button><button data-mood="earth" data-ar="ترابي" data-en="Earth">ترابي</button></div></div>
+        <div class="control-block"><label data-ar="الخامة" data-en="Finish">الخامة</label><div class="swatches" id="finishes"><button class="active" data-finish="walnut" style="--sw:#694a36"><span data-ar="جوز" data-en="Walnut">جوز</span></button><button data-finish="oak" style="--sw:#c9a978"><span data-ar="بلوط" data-en="Oak">بلوط</span></button><button data-finish="stone" style="--sw:#d7d2c7"><span data-ar="حجر" data-en="Stone">حجر</span></button></div></div>
+        <div class="meter"><span data-ar="تكوينك" data-en="Your composition">تكوينك</span><div><i id="meterFill"></i></div><small id="meterText">72%</small></div>
+        <button class="primary" id="addRoom"><span data-ar="أضف الغرفة إلى العرض" data-en="Add room to quote">أضف الغرفة إلى العرض</span><em>↗</em></button>
+      </aside>
+      <div class="scroll-cue"><span data-ar="اسحب للاكتشاف" data-en="Scroll to discover">اسحب للاكتشاف</span><i></i></div>
     </section>
 
-    <!-- About Section -->
-    <section class="section about" id="about">
-        <div class="container">
-            <div class="about-grid">
-                <div class="about-image">
-                    <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=600&h=700&fit=crop" alt="داخل المطعم" loading="lazy">
-                    <div class="about-image-accent"></div>
-                </div>
-                <div class="about-content">
-                    <h2 class="section-title">قصتنا</h2>
-                    <div class="section-divider"></div>
-                    <p class="about-text">
-                        منذ أكثر من عشرين عاماً، بدأنا رحلتنا في عالم الطبخ العربي الأصيل. نقدم لكم أشهى المأكولات المحضّرة بأيدي أمهر الطهاة، باستخدام أجود المكونات الطازجة يومياً.
-                    </p>
-                    <p class="about-text">
-                        نؤمن بأن الطعام ليس مجرد وجبة، بل هو تجربة متكاملة تجمع بين النكهات الأصيلة والأجواء الدافئة والضيافة العربية الحقيقية.
-                    </p>
-                    <div class="about-stats">
-                        <div class="stat">
-                            <span class="stat-number">20+</span>
-                            <span class="stat-label">سنة خبرة</span>
-                        </div>
-                        <div class="stat">
-                            <span class="stat-number">50+</span>
-                            <span class="stat-label">طبق مميز</span>
-                        </div>
-                        <div class="stat">
-                            <span class="stat-number">10K+</span>
-                            <span class="stat-label">عميل سعيد</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <section id="catalog" class="catalog section-pad">
+      <header class="section-head reveal"><div><span>02 — OBJECTS</span><h2 data-ar="قطع تقود المكان، لا تملؤه." data-en="Objects that lead a room, not fill it.">قطع تقود المكان، لا تملؤه.</h2></div><div class="filters" id="filters"><button class="active" data-filter="all" data-ar="الكل" data-en="All">الكل</button><button data-filter="seat" data-ar="جلوس" data-en="Seating">جلوس</button><button data-filter="table" data-ar="طاولات" data-en="Tables">طاولات</button><button data-filter="storage" data-ar="تخزين" data-en="Storage">تخزين</button></div></header>
+      <div class="product-rail" id="productRail">
+        <article class="product reveal" data-cat="seat" data-name-ar="كرسي قوس" data-name-en="Arc Chair" data-price="2950"><figure><img src="https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?auto=format&fit=crop&w=1000&q=88" alt="كرسي خشبي منحني" loading="lazy"><span>01</span></figure><div><h3 data-ar="كرسي قوس" data-en="Arc Chair">كرسي قوس</h3><p data-ar="هيكل بلوط، مقعد كتان منسوج." data-en="Oak frame, woven linen seat.">هيكل بلوط، مقعد كتان منسوج.</p><b><span class="price">2,950 ل.س</span></b><button class="add-product" data-ar="أضف للعرض +" data-en="Add to quote +">أضف للعرض +</button></div></article>
+        <article class="product reveal" data-cat="table" data-name-ar="طاولة مدار" data-name-en="Orbit Table" data-price="4180"><figure><img src="https://images.unsplash.com/photo-1532372320572-cda25653a694?auto=format&fit=crop&w=1000&q=88" alt="طاولة جانبية عصرية" loading="lazy"><span>02</span></figure><div><h3 data-ar="طاولة مدار" data-en="Orbit Table">طاولة مدار</h3><p data-ar="سطح حجري وقاعدة فولاذ مطفي." data-en="Stone top, matte steel base.">سطح حجري وقاعدة فولاذ مطفي.</p><b><span class="price">4,180 ل.س</span></b><button class="add-product" data-ar="أضف للعرض +" data-en="Add to quote +">أضف للعرض +</button></div></article>
+        <article class="product reveal" data-cat="storage" data-name-ar="خزانة خط" data-name-en="Line Cabinet" data-price="6720"><figure><img src="https://images.unsplash.com/photo-1595515106969-1ce29566ff1c?auto=format&fit=crop&w=1000&q=88" alt="خزانة خشبية عصرية" loading="lazy"><span>03</span></figure><div><h3 data-ar="خزانة خط" data-en="Line Cabinet">خزانة خط</h3><p data-ar="قشرة جوز طبيعية وتفاصيل نحاسية." data-en="Natural walnut veneer, brass details.">قشرة جوز طبيعية وتفاصيل نحاسية.</p><b><span class="price">6,720 ل.س</span></b><button class="add-product" data-ar="أضف للعرض +" data-en="Add to quote +">أضف للعرض +</button></div></article>
+        <article class="product reveal" data-cat="seat" data-name-ar="كنبة مدى" data-name-en="Mada Sofa" data-price="8850"><figure><img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1000&q=88" alt="كنبة خضراء أنيقة" loading="lazy"><span>04</span></figure><div><h3 data-ar="كنبة مدى" data-en="Mada Sofa">كنبة مدى</h3><p data-ar="وحدات مرنة، قماش مقاوم للاستخدام." data-en="Flexible modules, performance fabric.">وحدات مرنة، قماش مقاوم للاستخدام.</p><b><span class="price">8,850 ل.س</span></b><button class="add-product" data-ar="أضف للعرض +" data-en="Add to quote +">أضف للعرض +</button></div></article>
+      </div>
+      <p class="drag-note" data-ar="← اسحب المجموعة أفقياً →" data-en="← Drag the collection horizontally →">← اسحب المجموعة أفقياً →</p>
     </section>
 
-    <!-- Menu Section -->
-    <section class="section menu" id="menu">
-        <div class="container">
-            <h2 class="section-title text-center">قائمة الطعام</h2>
-            <div class="section-divider center"></div>
-            <div class="menu-tabs" id="menu-tabs">
-                <button class="menu-tab active" data-category="appetizers">مقبلات</button>
-                <button class="menu-tab" data-category="main">أطباق رئيسية</button>
-                <button class="menu-tab" data-category="grills">مشاوي</button>
-                <button class="menu-tab" data-category="desserts">حلويات</button>
-                <button class="menu-tab" data-category="drinks">مشروبات</button>
-            </div>
-            <div class="menu-grid" id="menu-grid">
-                <!-- Items injected by JS -->
-            </div>
-        </div>
+    <section id="craft" class="craft">
+      <div class="video-wrap reveal"><video id="craftVideo" autoplay muted loop playsinline poster="https://assets.mixkit.co/videos/39684/39684-thumb-720-0.jpg"><source src="https://assets.mixkit.co/videos/39684/39684-1080.mp4" type="video/mp4"></video><button id="videoToggle" aria-label="إيقاف الفيديو"><span></span><span data-ar="إيقاف" data-en="Pause">إيقاف</span></button><div class="video-label">03 / HAND & MATERIAL</div></div>
+      <div class="craft-copy section-pad reveal"><span class="eyebrow" data-ar="من اللوح إلى الغرفة" data-en="FROM BOARD TO ROOM">من اللوح إلى الغرفة</span><h2 data-ar="الأثر الحلو ما بيتخبّى." data-en="Good making leaves a trace.">الأثر الحلو ما بيتخبّى.</h2><p data-ar="نُظهر الوصلات، نحترم اتجاه العروق، ونبني القطعة لتعيش. هذا المقطع يعرض تسوية لوح خشبي داخل ورشة نجارة فعلية." data-en="We reveal the joints, respect the grain, and build to last. This film shows a real carpenter leveling a wooden board.">نُظهر الوصلات، نحترم اتجاه العروق، ونبني القطعة لتعيش. هذا المقطع يعرض تسوية لوح خشبي داخل ورشة نجارة فعلية.</p><dl><div><dt>18</dt><dd data-ar="سنة خبرة" data-en="years of craft">سنة خبرة</dd></div><div><dt>12</dt><dd data-ar="خامة مختارة" data-en="selected materials">خامة مختارة</dd></div><div><dt>01</dt><dd data-ar="قطعة لك" data-en="piece for you">قطعة لك</dd></div></dl></div>
     </section>
 
-    <!-- Gallery Section -->
-    <section class="section gallery" id="gallery">
-        <div class="container">
-            <h2 class="section-title text-center">معرض الصور</h2>
-            <div class="section-divider center"></div>
-            <div class="gallery-grid" id="gallery-grid">
-                <!-- Items injected by JS -->
-            </div>
-        </div>
+    <section class="spec section-pad">
+      <header class="section-head reveal"><span>04 — SPECIFICATION</span><h2 data-ar="التفاصيل قبل القرار." data-en="Details before decisions.">التفاصيل قبل القرار.</h2></header>
+      <div class="accordion">
+        <details open><summary><span>01</span><b data-ar="المقاسات حسب المساحة" data-en="Sized to your space">المقاسات حسب المساحة</b><i>＋</i></summary><p data-ar="زيارة قياس في حمص ودمشق، ثم مخطط توزيع واضح قبل التصنيع." data-en="A site measure in Homs or Damascus, followed by a clear layout before production.">زيارة قياس في حمص ودمشق، ثم مخطط توزيع واضح قبل التصنيع.</p></details>
+        <details><summary><span>02</span><b data-ar="عينات الخامة" data-en="Material samples">عينات الخامة</b><i>＋</i></summary><p data-ar="اختر الخشب والقماش واللون تحت إضاءة منزلك قبل اعتماد الطلب." data-en="Choose wood, textile, and color under your home's light before approval.">اختر الخشب والقماش واللون تحت إضاءة منزلك قبل اعتماد الطلب.</p></details>
+        <details><summary><span>03</span><b data-ar="التوصيل والتركيب" data-en="Delivery & installation">التوصيل والتركيب</b><i>＋</i></summary><p data-ar="فريق واحد يحمي القطعة، يركّبها، ويسلّم المكان نظيفاً." data-en="One team protects, installs, and leaves your space clean.">فريق واحد يحمي القطعة، يركّبها، ويسلّم المكان نظيفاً.</p></details>
+      </div>
     </section>
 
-    <!-- Lightbox -->
-    <div class="lightbox" id="lightbox">
-        <button class="lightbox-close" id="lightbox-close">&times;</button>
-        <img src="" alt="" class="lightbox-img" id="lightbox-img">
-        <button class="lightbox-prev" id="lightbox-prev"><i class="fas fa-chevron-right"></i></button>
-        <button class="lightbox-next" id="lightbox-next"><i class="fas fa-chevron-left"></i></button>
-    </div>
-
-    <!-- Testimonials Section -->
-    <section class="section testimonials" id="testimonials">
-        <div class="container">
-            <h2 class="section-title text-center">آراء عملائنا</h2>
-            <div class="section-divider center"></div>
-            <div class="testimonials-grid" id="testimonials-grid">
-                <!-- Items injected by JS -->
-            </div>
-        </div>
+    <section id="quote" class="quote section-pad">
+      <div class="quote-title reveal"><span>05 — YOUR ROOM</span><h2 data-ar="خلّينا نرسمها سوا." data-en="Let's draw it together.">خلّينا نرسمها سوا.</h2></div>
+      <div class="quote-box reveal"><div id="quoteItems"><p class="empty" data-ar="اختياراتك رح تظهر هون." data-en="Your selections will appear here.">اختياراتك رح تظهر هون.</p></div><div class="total"><span data-ar="التقدير الأولي" data-en="Starting estimate">التقدير الأولي</span><b id="quoteTotal">0 ل.س</b></div><form id="quoteForm"><label><span data-ar="الاسم" data-en="Name">الاسم</span><input name="name" required placeholder="نور / Nour"></label><label><span data-ar="المدينة" data-en="City">المدينة</span><select name="city"><option data-ar="حمص" data-en="Homs">حمص</option><option data-ar="دمشق" data-en="Damascus">دمشق</option></select></label><button type="submit" class="primary"><span data-ar="أرسل الطلب عبر واتساب" data-en="Send request on WhatsApp">أرسل الطلب عبر واتساب</span><em>↗</em></button></form><small data-ar="الأسعار تجريبية بالليرة السورية الجديدة وقد تتغير بعد القياس." data-en="Demo prices in new Syrian pounds; final quote follows measurement.">الأسعار تجريبية بالليرة السورية الجديدة وقد تتغير بعد القياس.</small></div>
     </section>
-
-    <!-- Location Section -->
-    <section class="section location" id="location">
-        <div class="container">
-            <h2 class="section-title text-center">الموقع وساعات العمل</h2>
-            <div class="section-divider center"></div>
-            <div class="location-grid">
-                <div class="map-container">
-                    <iframe 
-                        id="map-iframe"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3624.674541286158!2d46.6752957!3d24.7135517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjTCsDQyJzQ4LjgiTiA0NsKwNDAnMzEuMSJF!5e0!3m2!1sar!2ssa!4v1234567890"
-                        width="100%" 
-                        height="400" 
-                        style="border:0;" 
-                        allowfullscreen="" 
-                        loading="lazy">
-                    </iframe>
-                </div>
-                <div class="hours-container">
-                    <h3 class="hours-title"><i class="fas fa-clock"></i> ساعات العمل</h3>
-                    <table class="hours-table" id="hours-table">
-                        <!-- Injected by JS -->
-                    </table>
-                    <div class="location-info">
-                        <p><i class="fas fa-map-marker-alt"></i> <span id="address-text">شارع الملك فهد، الرياض، المملكة العربية السعودية</span></p>
-                        <p><i class="fas fa-phone-alt"></i> <span id="phone-text" dir="ltr">+966 50 123 4567</span></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer" id="contact">
-        <div class="container">
-            <div class="footer-grid">
-                <div class="footer-about">
-                    <h3 class="footer-logo" id="footer-logo">🏮 الديوان</h3>
-                    <p>حيث يلتقي التراث بالمذاق الأصيل. نقدم لكم أشهى المأكولات العربية في أجواء تجمع بين الأصالة والحداثة.</p>
-                </div>
-                <div class="footer-links">
-                    <h4>روابط سريعة</h4>
-                    <a href="#about">من نحن</a>
-                    <a href="#menu">المنيو</a>
-                    <a href="#gallery">الصور</a>
-                    <a href="#testimonials">آراء العملاء</a>
-                    <a href="#location">الموقع</a>
-                </div>
-                <div class="footer-contact">
-                    <h4>تواصل معنا</h4>
-                    <a href="#" id="footer-whatsapp"><i class="fab fa-whatsapp"></i> واتساب</a>
-                    <a href="#" id="footer-phone"><i class="fas fa-phone-alt"></i> <span dir="ltr">+966 50 123 4567</span></a>
-                    <a href="#" id="footer-instagram"><i class="fab fa-instagram"></i> انستقرام</a>
-                    <a href="#" id="footer-location-link"><i class="fas fa-map-marker-alt"></i> الموقع على الخريطة</a>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>© <span id="year"></span> <span id="footer-name">مطعم الديوان</span>. جميع الحقوق محفوظة.</p>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Floating WhatsApp Button -->
-    <a href="#" class="whatsapp-float" id="whatsapp-float" aria-label="تواصل واتساب">
-        <i class="fab fa-whatsapp"></i>
-    </a>
-
-    <script src="script.js"></script>
+  </main>
+  <footer><a class="brand" href="#studio"><b>مِحور</b><small>MIHWAR</small></a><p data-ar="أثاث وديكور — حمص × دمشق" data-en="Furniture & interiors — Homs × Damascus">أثاث وديكور — حمص × دمشق</p><a href="https://wa.me/963999000000" data-ar="واتساب ↗" data-en="WhatsApp ↗">واتساب ↗</a></footer>
+  <div class="toast" id="toast" role="status"></div>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
